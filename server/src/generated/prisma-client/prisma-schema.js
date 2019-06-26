@@ -192,7 +192,7 @@ type Query {
 enum Status {
   OPEN
   PENDING
-  COMPLETED
+  CLOSED
 }
 
 type Subscription {

@@ -47,7 +47,7 @@ const UpdateIssue = props => {
     setError("");
     e.preventDefault();
 
-    if (currentStatus === "COMPLETED") {
+    if (currentStatus === "CLOSED") {
       return setError(
         `The ticket is already ${currentStatus}. You cannot change it.`
       );
@@ -62,7 +62,7 @@ const UpdateIssue = props => {
     if (
       state.status !== "OPEN" &&
       state.status !== "PENDING" &&
-      state.status !== "COMPLETED"
+      state.status !== "CLOSED"
     ) {
       return setError(`Oops. That is an invalid status.`);
     }

@@ -58,10 +58,10 @@ exports[`<CreateIssue /> renders and matches snapshot 1`] = `
         PENDING
       </option>
       <option
-        key="COMPLETED"
-        value="COMPLETED"
+        key="CLOSED"
+        value="CLOSED"
       >
-        COMPLETED
+        CLOSED
       </option>
     </select>
   </label>

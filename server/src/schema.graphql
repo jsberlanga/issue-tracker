@@ -3,7 +3,7 @@ scalar DateTime
 enum Status {
   OPEN
   PENDING
-  COMPLETED
+  CLOSED
 }
 
 type Query {

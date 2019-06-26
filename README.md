@@ -10,7 +10,7 @@
 ## Usage
 
 ```js
-git clone https://github.com/jsberlanga/issue-tracker-v2.git
+git clone https://github.com/jsberlanga/issue-tracker.git
 ```
 
 Then cd into server and client folders and install the dependencies.

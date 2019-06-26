@@ -113,7 +113,7 @@ export type IssueOrderByInput =
   | "createdAt_ASC"
   | "createdAt_DESC";
 
-export type Status = "OPEN" | "PENDING" | "COMPLETED";
+export type Status = "OPEN" | "PENDING" | "CLOSED";
 
 export type MutationType = "CREATED" | "UPDATED" | "DELETED";
 

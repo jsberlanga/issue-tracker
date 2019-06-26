@@ -1,7 +1,7 @@
 enum Status {
   OPEN
   PENDING
-  COMPLETED
+  CLOSED
 }
 
 type Issue {
