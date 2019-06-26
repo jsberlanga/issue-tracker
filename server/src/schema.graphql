@@ -1,0 +1,31 @@
+scalar DateTime
+
+enum Status {
+  OPEN
+  PENDING
+  COMPLETED
+}
+
+type Query {
+  getIssues: [Issue]!
+  getIssue(id: ID!): Issue!
+}
+
+type Mutation {
+  createIssue(title: String!, description: String!, status: Status): Issue!
+  updateIssue(
+    id: ID!
+    title: String
+    description: String
+    status: Status
+  ): Issue!
+  deleteIssue(id: ID!): Issue!
+}
+
+type Issue {
+  id: ID!
+  title: String!
+  description: String!
+  status: Status!
+  createdAt: DateTime!
+}
