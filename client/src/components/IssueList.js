@@ -24,7 +24,6 @@ const GET_ISSUES_QUERY = gql`
 `;
 
 const IssueList = props => {
-  console.log(props);
   return (
     <StyledList>
       <Query query={GET_ISSUES_QUERY} fetchPolicy="cache-and-network">

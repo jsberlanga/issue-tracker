@@ -11,7 +11,7 @@ const Landing = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Julio Soto Berlanga.
+          Julio Soto
         </a>
       </p>
     </div>

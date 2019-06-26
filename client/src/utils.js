@@ -1,3 +1,5 @@
+// https://github.com/howtographql/ionic-apollo/blob/master/src/app/utils.ts
+
 function timeDifference(current, previous) {
   const milliSecondsPerMinute = 60 * 1000;
   const milliSecondsPerHour = milliSecondsPerMinute * 60;

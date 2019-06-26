@@ -15,7 +15,7 @@ const StyledIssue = styled.div`
   min-height: 35rem;
 
   button {
-    margin: 1rem;
+    margin: 1rem 1rem 4rem;
   }
 
   .issue--title {
