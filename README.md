@@ -7,7 +7,9 @@
   Issue Tracker
 </h1>
 
-## Usage
+## Installation
+
+To install the app:
 
 ```js
 git clone https://github.com/jsberlanga/issue-tracker.git
@@ -15,9 +17,13 @@ git clone https://github.com/jsberlanga/issue-tracker.git
 
 Then cd into server and client folders and install the dependencies.
 
+## Usage
+
+To run the app:
+
 ```js
 cd client
 npm run app
 ```
 
-Then open http://localhost:3000/ to see the issue tracker app.
+Then go to http://localhost:3000/ to see the issue tracker app.
